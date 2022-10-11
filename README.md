@@ -75,7 +75,7 @@ ogs_pfcp_node_t *ogs_pfcp_node_add(
 }
 ```
 
-Instead of freeing the nodes after using or encountering an error, these nodes are freed only after the termination of UPF and SMF by calling function `ogs_pfcp_context_final`.
+Instead of freeing the nodes after using or encountering an error, these nodes are freed only after the termination of UPF by calling function `ogs_pfcp_context_final`.
 
 So making more than 64 pfcp connections will crash the UPF causing DoS.
 
