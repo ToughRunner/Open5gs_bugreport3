@@ -108,7 +108,7 @@ ogs_pool_init(&ogs_pfcp_node_pool, ogs_app()->pool.nf);
 
 ## POC
 The vulnerability can be triggered simply by sending more than 64 invalid pfcp packets through different sockets.
-![](hhttps://github.com/ToughRunner/Open5gs_bugreport3/blob/main/1.png)
+![](https://github.com/ToughRunner/Open5gs_bugreport3/blob/main/1.png)
 
 ## Upadate
 We have reported this vulnerability to the vendor through email at 19 Sep 2022, but this bug has not been fixed yet.
